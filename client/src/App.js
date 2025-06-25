@@ -4,6 +4,7 @@ import getWeb3 from "./getWeb3";
 import "./App.css";
 import Web3 from "web3";
 
+//after importing
 // Use web3.utils.soliditySha3 to match Solidity's keccak256 for strict security
 const generateHash = (aadhar, pan) => {
   const web3 = new Web3();
